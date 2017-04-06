@@ -1,6 +1,13 @@
 /* --- POST ---*/
+.navbar{
+	margin-bottom: 0;
+}
+
 .jumbotron {
+	background: #337ab7;
 	padding: 20px 0;
+	color: #fff;
+
 }
 
 .main {
@@ -34,4 +41,14 @@
 
 icon-bar {
 	background: black;
+}
+
+/* ---Media Querie --- */
+
+@media screen and (max-width: 768px) {
+	.post .thumb {
+		width: 100%;
+		margin-bottom: 20px;
+		margin-right: 0;
+	}
 }
